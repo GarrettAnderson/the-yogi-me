@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FontAwesome } from 'react-fontawesome'
 
 class HelloWorld extends Component {
   render() {
@@ -142,6 +143,32 @@ class HelloWorld extends Component {
           </figure>
         </main>
         {/* Yoga Pose Detail end */}
+
+        {/* Yoga Class Tab */}
+        <header>
+          <nav>The Yogi Me</nav>
+        </header>
+        <main>
+          <ol>
+            <li>
+              <section>
+                <h3>Class Name</h3>
+                <section class="class-button-wrapper">
+                  <button class="view-created-class-icon">
+                    <i class="fas fa-angle-down" />
+                  </button>
+                  <button class="edit-created-class-icon">
+                    <i class="fas fa-pen" />
+                  </button>
+                  <button class="delete-created-class-icon">
+                    <i class="fas fa-trash-alt" />
+                  </button>
+                </section>
+              </section>
+            </li>
+          </ol>
+        </main>
+        {/* Yoga Class Tab end */}
       </section>
     )
   }
