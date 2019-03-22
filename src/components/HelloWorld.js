@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { FontAwesome } from 'react-fontawesome'
 
 class HelloWorld extends Component {
   render() {
@@ -87,27 +86,27 @@ class HelloWorld extends Component {
         <main>
           <ol>
             <li>
-              <img src="" />
+              <img src="/sr/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="" />
+              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="" />
+              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="" />
+              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="" />
+              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="" />
+              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
           </ol>
@@ -120,7 +119,7 @@ class HelloWorld extends Component {
         </header>
         <main>
           <figure>
-            <img src="" />
+            <img src="/src/images/yoga_stock_img.jpg" className="pose-detail-img" />
             <ol>
               <li>
                 <h2>Sanskrit Name</h2>
@@ -153,15 +152,47 @@ class HelloWorld extends Component {
             <li>
               <section>
                 <h3>Class Name</h3>
-                <section class="class-button-wrapper">
-                  <button class="view-created-class-icon">
-                    <i class="fas fa-angle-down" />
+                <section className="class-button-wrapper">
+                  <button className="view-created-class-icon">
+                    <i className="fas fa-angle-down fa-2x" />
                   </button>
-                  <button class="edit-created-class-icon">
-                    <i class="fas fa-pen" />
+                  <button className="edit-created-class-icon">
+                    <i className="fas fa-pen fa-2x" />
                   </button>
-                  <button class="delete-created-class-icon">
-                    <i class="fas fa-trash-alt" />
+                  <button className="delete-created-class-icon">
+                    <i className="fas fa-trash-alt fa-2x" />
+                  </button>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section>
+                <h3>Class Name</h3>
+                <section className="class-button-wrapper">
+                  <button className="view-created-class-icon">
+                    <i className="fas fa-angle-down fa-2x" />
+                  </button>
+                  <button className="edit-created-class-icon">
+                    <i className="fas fa-pen fa-2x" />
+                  </button>
+                  <button className="delete-created-class-icon">
+                    <i className="fas fa-trash-alt fa-2x" />
+                  </button>
+                </section>
+              </section>
+            </li>
+            <li>
+              <section>
+                <h3>Class Name</h3>
+                <section className="class-button-wrapper">
+                  <button className="view-created-class-icon">
+                    <i className="fas fa-angle-down fa-2x" />
+                  </button>
+                  <button className="edit-created-class-icon">
+                    <i className="fas fa-pen fa-2x" />
+                  </button>
+                  <button className="delete-created-class-icon">
+                    <i className="fas fa-trash-alt fa-2x" />
                   </button>
                 </section>
               </section>
@@ -169,6 +200,21 @@ class HelloWorld extends Component {
           </ol>
         </main>
         {/* Yoga Class Tab end */}
+
+        {/* Create Yoga Class Tab */}
+        <main>
+          <section>
+            <aside>
+              <h4>Category</h4>
+              <ol>
+                <li>
+                  <img src="../src/images/yoga_stock_img.jpg" alt="tree-pose-stock-photo" />
+                </li>
+              </ol>
+            </aside>
+          </section>
+        </main>
+        {/* Create Yoga Class Tab end */}
       </section>
     )
   }
