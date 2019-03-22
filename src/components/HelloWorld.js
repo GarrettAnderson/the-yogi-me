@@ -86,27 +86,27 @@ class HelloWorld extends Component {
         <main>
           <ol>
             <li>
-              <img src="/sr/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src="/src/images/yoga_stock_img.jpg" className="pose-gallery-img" />
+              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
               <p>Yoga Pose Name</p>
             </li>
           </ol>
@@ -119,7 +119,7 @@ class HelloWorld extends Component {
         </header>
         <main>
           <figure>
-            <img src="/src/images/yoga_stock_img.jpg" className="pose-detail-img" />
+            <img src={require('../images/yoga_stock_img.jpg')} className="pose-detail-img" />
             <ol>
               <li>
                 <h2>Sanskrit Name</h2>
@@ -202,16 +202,119 @@ class HelloWorld extends Component {
         {/* Yoga Class Tab end */}
 
         {/* Create Yoga Class Tab */}
-        <main>
-          <section>
+        <main className="create-yoga-container">
+          <section className="yoga-pose-index">
             <aside>
               <h4>Category</h4>
               <ol>
+                <section>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                </section>
+                <section>
+                  <p>
+                    <li>
+                      <img
+                        src={require('../images/yoga_stock_img.jpg')}
+                        alt="tree-pose-stock-photo"
+                        className="pose-index-gallery"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        src={require('../images/yoga_stock_img.jpg')}
+                        alt="tree-pose-stock-photo"
+                        className="pose-index-gallery"
+                      />
+                    </li>
+                  </p>
+                </section>
+              </ol>
+              <h4>Category</h4>
+              <ol>
                 <li>
-                  <img src="../src/images/yoga_stock_img.jpg" alt="tree-pose-stock-photo" />
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+              </ol>
+              <h4>Category</h4>
+              <ol>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
+                </li>
+                <li>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    alt="tree-pose-stock-photo"
+                    className="pose-index-gallery"
+                  />
                 </li>
               </ol>
             </aside>
+          </section>
+          <section className="yoga-sequence">
+            <section className="drop-image-for-sequence">
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
+            </section>
           </section>
         </main>
         {/* Create Yoga Class Tab end */}

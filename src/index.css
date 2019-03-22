@@ -10,3 +10,37 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+.pose-gallery-img {
+  width: 15em;
+}
+
+.pose-detail-img {
+  width: 15em;
+}
+
+.pose-index-gallery {
+  width: 15em;
+}
+
+.create-yoga-container {
+  display: flex;
+  margin: 0em;
+  border: 3px solid black;
+}
+
+.yoga-pose-index {
+  border: 3px solid black;
+  margin: 1em;
+  width: 40%;
+}
+
+.yoga-pose-index ol {
+  display: flex;
+}
+
+.yoga-sequence {
+  border: 3px solid black;
+  margin: 1em;
+  width: 70%;
+}
