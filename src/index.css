@@ -84,7 +84,7 @@ header {
 }
 
 header h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-family: 'Oleo Script', cursive;
   margin-top: 0;
   color: bisque;
@@ -95,7 +95,7 @@ header h1 {
 .home-page-container {
   background: url('images/yoga_splash.jpg');
   height: 100vh;
-  background-position-x: -147em;
+  background-position-x: -161em;
   background-position-y: -15em;
   background-repeat: no-repeat;
 }
