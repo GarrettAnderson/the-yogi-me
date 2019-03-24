@@ -5,10 +5,12 @@ class Home extends Component {
   render() {
     return (
       <section>
-        <header>
-          <h1>The Yogi Me</h1>
+        <header className="homepage-header">
+          <Link to="/">
+            <h1>The Yogi Me</h1>
+          </Link>
         </header>
-        <main>
+        <main className="home-page-container">
           <section>
             <h3>Fun Facts</h3>
           </section>

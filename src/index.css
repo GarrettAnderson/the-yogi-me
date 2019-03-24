@@ -11,6 +11,10 @@ body {
   min-height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .pose-gallery-img {
   width: 15em;
 }
@@ -27,12 +31,20 @@ body {
   display: flex;
   margin: 0em;
   border: 3px solid black;
+  height: 100vh;
+  background: url('images/lotus.jpg');
+  background-position-x: 0%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
 }
 
 .yoga-pose-index {
-  border: 3px solid black;
+  border: 8px solid bisque;
   margin: 1em;
-  width: 40%;
+  width: 100%;
+  background-color: hsl(176, 13%, 46%, 0.5);
+  border-radius: 10px;
+  overflow: scroll;
 }
 
 .yoga-pose-index ol {
@@ -51,7 +63,43 @@ body {
 }
 
 .yoga-sequence {
-  border: 3px solid black;
+  border: 8px solid bisque;
   margin: 1em;
   width: 70%;
+  background-color: hsl(176, 13%, 46%, 0.5);
+  border-radius: 10px;
+  display: none;
+}
+
+header {
+  background: url('images/header_background.jpg');
+  height: 7em;
+  background-size: cover;
+}
+
+.homepage-header {
+  background: url('images/texture_background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -38em;
+}
+
+header h1 {
+  font-size: 5em;
+  font-family: 'Oleo Script', cursive;
+  margin-top: 0;
+  color: bisque;
+  padding-top: 0.2em;
+  padding-left: 0.2em;
+}
+
+.home-page-container {
+  background: url('images/yoga_splash.jpg');
+  height: 100vh;
+  background-position-x: -147em;
+  background-position-y: -15em;
+  background-repeat: no-repeat;
+}
+
+.home-page-container h3 {
+  margin-top: 0;
 }

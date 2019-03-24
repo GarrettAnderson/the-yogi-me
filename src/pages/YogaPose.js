@@ -5,8 +5,10 @@ class YogaPose extends Component {
   render() {
     return (
       <section>
-        <header>
-          <nav>The Yogi Me</nav>
+        <header className="header-nav">
+          <Link to="/">
+            <h1>The Yogi Me</h1>
+          </Link>
         </header>
         <main>
           <figure>
