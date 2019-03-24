@@ -37,6 +37,17 @@ body {
 
 .yoga-pose-index ol {
   display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.yoga-pose-index li {
+  margin-bottom: 1em;
+}
+
+.yoga-pose-index h2 {
+  margin-left: 0.75em;
 }
 
 .yoga-sequence {

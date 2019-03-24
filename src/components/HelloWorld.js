@@ -205,7 +205,7 @@ class HelloWorld extends Component {
         <main className="create-yoga-container">
           <section className="yoga-pose-index">
             <aside>
-              <h4>Category</h4>
+              <h2>Category</h2>
               <ol>
                 <section>
                   <li>
@@ -224,97 +224,99 @@ class HelloWorld extends Component {
                   </li>
                 </section>
                 <section>
-                  <p>
-                    <li>
-                      <img
-                        src={require('../images/yoga_stock_img.jpg')}
-                        alt="tree-pose-stock-photo"
-                        className="pose-index-gallery"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src={require('../images/yoga_stock_img.jpg')}
-                        alt="tree-pose-stock-photo"
-                        className="pose-index-gallery"
-                      />
-                    </li>
-                  </p>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
                 </section>
               </ol>
-              <h4>Category</h4>
+              <h2>Category</h2>
               <ol>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
+                <section>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                </section>
+                <section>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                </section>
               </ol>
-              <h4>Category</h4>
+              <h2>Category</h2>
               <ol>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
-                <li>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    alt="tree-pose-stock-photo"
-                    className="pose-index-gallery"
-                  />
-                </li>
+                <section>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                </section>
+                <section>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      alt="tree-pose-stock-photo"
+                      className="pose-index-gallery"
+                    />
+                  </li>
+                </section>
               </ol>
             </aside>
           </section>
           <section className="yoga-sequence">
-            <section className="drop-image-for-sequence">
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-              <div id="div1" onDrop="drop(event)" onDragOver="allowDrop(event)" />
-            </section>
+            <input
+              className="drop-image-for-sequence"
+              placeholder="Click image on the left to create your yoga sequence"
+            />
           </section>
         </main>
         {/* Create Yoga Class Tab end */}
