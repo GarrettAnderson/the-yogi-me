@@ -16,7 +16,9 @@ class Home extends Component {
             <h3>Pose Directory</h3>
           </section>
           <section>
-            <h3>Your Classes</h3>
+            <Link to="/YogaSequenceBuilder">
+              <h3>Your Classes</h3>
+            </Link>
           </section>
         </main>
       </section>

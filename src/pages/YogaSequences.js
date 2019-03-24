@@ -64,6 +64,5 @@ class YogaSequences extends Component {
     )
   }
 }
-import { Link } from 'react-router-dom'
 
 export default YogaSequences
