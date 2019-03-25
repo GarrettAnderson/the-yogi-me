@@ -86,6 +86,7 @@ header {
 header h1 {
   font-size: 4em;
   font-family: 'Oleo Script', cursive;
+  /* font-family: 'Julius Sans One', sans-serif; */
   margin-top: 0;
   color: bisque;
   padding-top: 0.2em;
@@ -93,10 +94,10 @@ header h1 {
 }
 
 .home-page-container {
-  background: url('images/yoga_splash.jpg');
+  background: url('images/buddha_splash.jpg');
   height: 100vh;
-  background-position-x: -161em;
-  background-position-y: -15em;
+  /* background-position-x: 61em;
+  background-position-y: 5em; */
   background-repeat: no-repeat;
 }
 
