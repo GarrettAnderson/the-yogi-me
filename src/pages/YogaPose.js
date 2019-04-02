@@ -12,7 +12,7 @@ class YogaPose extends Component {
         </header>
         <main>
           <figure>
-            <img src={require('../images/yoga_stock_img.jpg')} className="pose-detail-img" />
+            <img src={require('../images/yoga_stock_img.jpg')} className="pose-detail-img" alt="tree-pose-image" />
             <ol>
               <li>
                 <h2>Sanskrit Name</h2>

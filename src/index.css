@@ -77,12 +77,6 @@ header {
   background-size: cover;
 }
 
-.homepage-header {
-  background: url('images/texture_background.jpg');
-  background-repeat: no-repeat;
-  background-position-y: -38em;
-}
-
 header h1 {
   font-size: 4em;
   font-family: 'Oleo Script', cursive;
@@ -93,6 +87,7 @@ header h1 {
   padding-left: 0.2em;
 }
 
+/* Home Page Styles */
 .home-page-container {
   background: url('images/buddha_splash.jpg');
   height: 100vh;
@@ -100,7 +95,26 @@ header h1 {
   background-position-y: 5em; */
   background-repeat: no-repeat;
 }
+.homepage-header {
+  background: url('images/texture_background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -38em;
+}
 
 .home-page-container h3 {
   margin-top: 0;
+}
+
+/* Yoga Pose Directory Styles */
+.pose-directory-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.pose-directory-container ol {
+  list-style: none;
+}
+
+.pose-directory-container li {
+  margin-top: 2rem;
 }

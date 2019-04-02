@@ -12,10 +12,14 @@ class Home extends Component {
         </header>
         <main className="home-page-container">
           <section>
-            <h3>Fun Facts</h3>
+            <Link to="/YogaHistory">
+              <h3>Fun Facts</h3>
+            </Link>
           </section>
           <section>
-            <h3>Pose Directory</h3>
+            <Link to="/YogaPoses">
+              <h3>Pose Directory</h3>
+            </Link>
           </section>
           <section>
             <Link to="/YogaSequenceBuilder">

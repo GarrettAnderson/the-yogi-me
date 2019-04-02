@@ -15,11 +15,13 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/:YogaSequenceBuilder" component={YogaSequenceBuilder} />
+            {/* <Route exact path="/:YogaSequenceBuilder" component={YogaSequenceBuilder} />
             <Route exact path="/:YogaHistory" component={YogaHistory} />
-            <Route exact path="/:YogaPoses" component={YogaPoses} />
-            <Route exact path="/:YogaPose" component={YogaPose} />
-            <Route exact path="/:YogaSequences" component={YogaSequences} />
+            <Route exact path="/:YogaPoses" component={YogaPoses} /> */}
+            <Route exact path="/:YogaPose" component={YogaPoses} />
+            <Route exact path="/:YogaPose/1" component={YogaPose} />
+
+            {/* <Route exact path="/:YogaSequences" component={YogaSequences} /> */}
           </Switch>
         </Router>
       </div>

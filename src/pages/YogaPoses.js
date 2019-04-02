@@ -10,30 +10,54 @@ class YogaPoses extends Component {
             <h1>The Yogi Me</h1>
           </Link>
         </header>
-        <main>
+        <main className="pose-directory-container">
           <ol>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
             <li>
-              <img src={require('../images/yoga_stock_img.jpg')} className="pose-gallery-img" />
+              <img
+                src={require('../images/yoga_stock_img.jpg')}
+                className="pose-gallery-img"
+                alt="specific-yoga-pose-img"
+              />
               <p>Yoga Pose Name</p>
             </li>
           </ol>
