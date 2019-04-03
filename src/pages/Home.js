@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 class Home extends Component {
   render() {
     return (
-      <section>
+      <section className="landing-pg-container">
         <header className="homepage-header">
           <Link to="/">
             <h1>The Yogi Me</h1>
@@ -14,7 +14,7 @@ class Home extends Component {
           <section>
             <ul className="list-group">
               <Link to="/YogaHistory">
-                <li className="list-group-item mb3">
+                <li className="list-group-item">
                   <h3>Fun Facts</h3>
                 </li>
               </Link>

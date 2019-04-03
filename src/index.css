@@ -73,7 +73,7 @@ a {
 
 header {
   background: url('images/header_background.jpg');
-  height: 7em;
+  height: 13%;
   background-size: cover;
 }
 
@@ -85,6 +85,7 @@ header h1 {
   color: bisque;
   padding-top: 0.2em;
   padding-left: 0.2em;
+  text-decoration: none;
 }
 
 .homepage-header {
@@ -94,15 +95,17 @@ header h1 {
 }
 
 /* Home Page Styles */
+.landing-pg-container {
+}
+
 .home-page-container {
   background: url('images/buddha_splash.jpg');
-  height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
   text-decoration: none;
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding-top: 2rem;
 }
 
 .home-page-container h3 {
@@ -126,6 +129,10 @@ header h1 {
 }
 
 /* Yoga Pose Directory Styles */
+.main-poses-container {
+  height: 87vh;
+}
+
 .pose-directory-container {
   /* display: flex;
   flex-direction: column; */
@@ -144,10 +151,13 @@ header h1 {
   padding: 0;
   display: flex;
   align-items: center;
+  margin: 0;
 }
 
-/* .pose-directory-row {
-} */
+.pose-directory-row {
+  display: flex;
+  flex-direction: row;
+}
 
 .pose-directory-container li {
   margin-top: 2rem;
