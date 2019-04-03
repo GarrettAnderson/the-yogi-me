@@ -14,7 +14,7 @@ class Home extends Component {
           <section>
             <ul className="list-group">
               <Link to="/YogaHistory">
-                <li className="list-group-item">
+                <li className="list-group-item mb3">
                   <h3>Fun Facts</h3>
                 </li>
               </Link>
