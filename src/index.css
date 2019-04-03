@@ -213,6 +213,9 @@ header h1 {
 
 .single-pose-details {
   height: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .single-pose-details section {
@@ -220,6 +223,8 @@ header h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
+  width: 90%;
 }
 
 .single-pose-image img {
