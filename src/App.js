@@ -7,6 +7,7 @@ import YogaPose from './pages/YogaPose'
 import YogaPoses from './pages/YogaPoses'
 import YogaSequences from './pages/YogaSequences'
 import YogaSequenceBuilder from './pages/YogaSequenceBuilder'
+import YogaPoseImg from './pages/YogaPoseImg'
 
 class App extends Component {
   render() {
@@ -19,7 +20,9 @@ class App extends Component {
             <Route exact path="/:YogaHistory" component={YogaHistory} />
             <Route exact path="/:YogaPoses" component={YogaPoses} /> */}
             <Route exact path="/:YogaPose" component={YogaPoses} />
-            <Route exact path="/:YogaPose/1" component={YogaPose} />
+            <Route exact path="/:YogaPose/1" component={YogaPoseImg} />
+
+            {/* <Route exact path="/:YogaPose/1" component={YogaPose} /> */}
 
             {/* <Route exact path="/:YogaSequences" component={YogaSequences} /> */}
           </Switch>

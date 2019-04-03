@@ -214,3 +214,9 @@ header h1 {
 .single-pose-details {
   height: 80%;
 }
+
+.single-pose-image img {
+  width: 80%;
+  text-align: center;
+  margin-top: 2rem;
+}
