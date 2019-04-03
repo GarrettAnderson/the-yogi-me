@@ -12,59 +12,61 @@ class YogaPoses extends Component {
         </header>
         <main className="pose-directory-container">
           <ol>
-            <section className="pose-directory-row">
-              {/* this section will become the various categories of poses that user can scroll left/right to view. I would like to have multiple section.pose-directory-row classes per category (standing pose/ belly / back) */}
-              <li>
-                <figure>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    className="pose-gallery-img"
-                    alt="specific-yoga-pose-img"
-                  />
-                  <figcaption>Yoga Pose Name</figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    className="pose-gallery-img"
-                    alt="specific-yoga-pose-img"
-                  />
-                  <figcaption>Yoga Pose Name</figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    className="pose-gallery-img"
-                    alt="specific-yoga-pose-img"
-                  />
-                  <figcaption>Yoga Pose Name</figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    className="pose-gallery-img"
-                    alt="specific-yoga-pose-img"
-                  />
-                  <figcaption>Yoga Pose Name</figcaption>
-                </figure>
-              </li>
-              <li>
-                <figure>
-                  <img
-                    src={require('../images/yoga_stock_img.jpg')}
-                    className="pose-gallery-img"
-                    alt="specific-yoga-pose-img"
-                  />
-                  <figcaption>Yoga Pose Name</figcaption>
-                </figure>
-              </li>
-            </section>
+            {/* each list item represents a left-scroll-able yoga pose category */}
+            <li>
+              <section className="pose-directory-row">
+                <li>
+                  <figure>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      className="pose-gallery-img"
+                      alt="specific-yoga-pose-img"
+                    />
+                    <figcaption>Yoga Pose Name</figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      className="pose-gallery-img"
+                      alt="specific-yoga-pose-img"
+                    />
+                    <figcaption>Yoga Pose Name</figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      className="pose-gallery-img"
+                      alt="specific-yoga-pose-img"
+                    />
+                    <figcaption>Yoga Pose Name</figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      className="pose-gallery-img"
+                      alt="specific-yoga-pose-img"
+                    />
+                    <figcaption>Yoga Pose Name</figcaption>
+                  </figure>
+                </li>
+                <li>
+                  <figure>
+                    <img
+                      src={require('../images/yoga_stock_img.jpg')}
+                      className="pose-gallery-img"
+                      alt="specific-yoga-pose-img"
+                    />
+                    <figcaption>Yoga Pose Name</figcaption>
+                  </figure>
+                </li>
+              </section>
+            </li>
           </ol>
         </main>
       </section>

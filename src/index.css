@@ -16,7 +16,7 @@ a {
 }
 
 .pose-gallery-img {
-  width: 15em;
+  width: 22em;
 }
 
 .pose-detail-img {
@@ -86,26 +86,41 @@ header h1 {
   padding-top: 0.2em;
   padding-left: 0.2em;
   text-decoration: none;
+  cursor: pointer;
+}
+
+/* Home Page and header specific styles */
+.landing-pg-container {
+  height: 100vh;
 }
 
 .homepage-header {
   background: url('images/texture_background.jpg');
   background-repeat: no-repeat;
   background-position-y: -38em;
+  height: 15%;
+}
+
+.homepage-header a {
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Home Page Styles */
-.landing-pg-container {
-}
 
 .home-page-container {
-  background: url('images/buddha_splash.jpg');
+  /* background: url('images/buddha_splash.jpg'); */
   width: 100%;
+  height: 75%;
   background-repeat: no-repeat;
   text-decoration: none;
+  /* padding-top: 2rem; */
+}
+
+.home-page-container ul {
   display: flex;
-  justify-content: center;
-  padding-top: 2rem;
+  flex-direction: column;
+  padding-left: 0;
 }
 
 .home-page-container h3 {
