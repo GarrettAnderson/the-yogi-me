@@ -82,7 +82,7 @@ a {
 
 header {
   background: url('images/header_background.jpg');
-  height: 13%;
+  height: 20%;
   background-size: cover;
 }
 
@@ -205,3 +205,12 @@ header h1 {
 /* .pose-directory-container li p {
 
 } */
+
+/* Individual Yoga Pose */
+.single-pose-container {
+  height: 100%;
+}
+
+.single-pose-details {
+  height: 80%;
+}
