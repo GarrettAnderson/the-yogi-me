@@ -13,60 +13,59 @@ class YogaPoses extends Component {
         <main className="pose-directory-container">
           <ol>
             {/* each list item represents a left-scroll-able yoga pose category */}
-            <li>
-              <section className="pose-directory-row">
-                <li>
-                  <figure>
-                    <img
-                      src={require('../images/yoga_stock_img.jpg')}
-                      className="pose-gallery-img"
-                      alt="specific-yoga-pose-img"
-                    />
-                    <figcaption>Yoga Pose Name</figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img
-                      src={require('../images/yoga_stock_img.jpg')}
-                      className="pose-gallery-img"
-                      alt="specific-yoga-pose-img"
-                    />
-                    <figcaption>Yoga Pose Name</figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img
-                      src={require('../images/yoga_stock_img.jpg')}
-                      className="pose-gallery-img"
-                      alt="specific-yoga-pose-img"
-                    />
-                    <figcaption>Yoga Pose Name</figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img
-                      src={require('../images/yoga_stock_img.jpg')}
-                      className="pose-gallery-img"
-                      alt="specific-yoga-pose-img"
-                    />
-                    <figcaption>Yoga Pose Name</figcaption>
-                  </figure>
-                </li>
-                <li>
-                  <figure>
-                    <img
-                      src={require('../images/yoga_stock_img.jpg')}
-                      className="pose-gallery-img"
-                      alt="specific-yoga-pose-img"
-                    />
-                    <figcaption>Yoga Pose Name</figcaption>
-                  </figure>
-                </li>
-              </section>
-            </li>
+
+            <section className="pose-directory-row">
+              <li>
+                <figure>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    className="pose-gallery-img"
+                    alt="specific-yoga-pose-img"
+                  />
+                  <figcaption>Yoga Pose Name</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    className="pose-gallery-img"
+                    alt="specific-yoga-pose-img"
+                  />
+                  <figcaption>Yoga Pose Name</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    className="pose-gallery-img"
+                    alt="specific-yoga-pose-img"
+                  />
+                  <figcaption>Yoga Pose Name</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    className="pose-gallery-img"
+                    alt="specific-yoga-pose-img"
+                  />
+                  <figcaption>Yoga Pose Name</figcaption>
+                </figure>
+              </li>
+              <li>
+                <figure>
+                  <img
+                    src={require('../images/yoga_stock_img.jpg')}
+                    className="pose-gallery-img"
+                    alt="specific-yoga-pose-img"
+                  />
+                  <figcaption>Yoga Pose Name</figcaption>
+                </figure>
+              </li>
+            </section>
           </ol>
         </main>
       </section>
