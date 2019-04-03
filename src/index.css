@@ -219,7 +219,7 @@ header h1 {
 }
 
 .detail-card-outline {
-  border: 3px solid hsl(21, 19%, 71%);
+  background-color: hsl(21, 19%, 71%, 0.5);
   margin: 2rem;
   display: flex;
   flex-direction: column;
@@ -237,6 +237,7 @@ header h1 {
   width: 90%;
   height: 90%;
   border: 3px solid hsl(21, 19%, 71%);
+  background-color: #fff;
 }
 
 .single-pose-image img {
