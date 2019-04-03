@@ -127,8 +127,8 @@ header h1 {
 
 /* Yoga Pose Directory Styles */
 .pose-directory-container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   height: 100vh;
   width: 100%;
   background: url('images/buddha_background.jpg');
@@ -142,10 +142,19 @@ header h1 {
   list-style: none;
   overflow: auto;
   padding: 0;
+  display: flex;
+  align-items: center;
 }
+
+/* .pose-directory-row {
+} */
 
 .pose-directory-container li {
   margin-top: 2rem;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .pose-directory-container li img {
