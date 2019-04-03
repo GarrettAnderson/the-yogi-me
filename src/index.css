@@ -80,7 +80,13 @@ a {
   display: none;
 }
 
-header {
+/* header {
+  background: url('images/header_background.jpg');
+  height: 15%;
+  background-size: cover;
+} */
+
+.header-nav {
   background: url('images/header_background.jpg');
   height: 15%;
   background-size: cover;
@@ -254,6 +260,6 @@ header h1 {
   padding-left: 0;
 }
 
-.pose-details-list span {
-  font-weight: bold;
+.pose-details-list {
+  width: 100%;
 }
