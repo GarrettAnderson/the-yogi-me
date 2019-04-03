@@ -238,7 +238,7 @@ header h1 {
 .single-pose-details section {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   margin-top: 2rem;
   width: 90%;
   height: 90%;
@@ -262,4 +262,8 @@ header h1 {
 
 .pose-details-list {
   width: 100%;
+}
+
+.pose-details-list li {
+  width: 80% !important;
 }

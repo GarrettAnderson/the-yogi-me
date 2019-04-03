@@ -16,9 +16,9 @@ class YogaPose extends Component {
               <li className="list-group-item">Sanskrit Name</li>
               <li className="list-group-item">English Name</li>
               <li className="list-group-item">Position Type</li>
-            </ol>
+              {/* </ol>
 
-            <ol className="pose-details-list list-group">
+            <ol className="pose-details-list list-group"> */}
               <header>Steps to Get into the Pose</header>
               <li className="list-group-item">Step 1</li>
               <li className="list-group-item"> Step 2</li>
