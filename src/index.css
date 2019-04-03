@@ -87,6 +87,12 @@ header h1 {
   padding-left: 0.2em;
 }
 
+.homepage-header {
+  background: url('images/texture_background.jpg');
+  background-repeat: no-repeat;
+  background-position-y: -38em;
+}
+
 /* Home Page Styles */
 .home-page-container {
   background: url('images/buddha_splash.jpg');
@@ -94,15 +100,20 @@ header h1 {
   /* background-position-x: 61em;
   background-position-y: 5em; */
   background-repeat: no-repeat;
-}
-.homepage-header {
-  background: url('images/texture_background.jpg');
-  background-repeat: no-repeat;
-  background-position-y: -38em;
+  text-decoration: none;
+  display: flex;
 }
 
 .home-page-container h3 {
   margin-top: 0;
+}
+
+.home-page-container a {
+  color: #000;
+}
+
+.home-page-container a:hover {
+  text-decoration: none;
 }
 
 /* Yoga Pose Directory Styles */
