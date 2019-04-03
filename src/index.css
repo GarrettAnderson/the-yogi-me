@@ -82,7 +82,7 @@ a {
 
 header {
   background: url('images/header_background.jpg');
-  height: 20%;
+  height: 15%;
   background-size: cover;
 }
 
@@ -111,7 +111,7 @@ header h1 {
   background: url('images/texture_background.jpg');
   background-repeat: no-repeat;
   background-position-y: -38em;
-  height: 20%;
+  height: 15%;
 }
 
 .homepage-header a {
@@ -124,7 +124,7 @@ header h1 {
 .home-page-container {
   /* background: url('images/buddha_splash.jpg'); */
   width: 100%;
-  height: 80%;
+  height: 75%;
   background-repeat: no-repeat;
   text-decoration: none;
   /* padding-top: 2rem; */
@@ -208,15 +208,34 @@ header h1 {
 
 /* Individual Yoga Pose */
 .single-pose-container {
-  height: 100%;
+  height: 100vh;
 }
 
 .single-pose-details {
-  height: 80%;
+  height: 75%;
+}
+
+.single-pose-details section {
+  border: 3px solid hsl(21, 19%, 71%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .single-pose-image img {
   width: 80%;
   text-align: center;
   margin-top: 2rem;
+}
+
+.single-pose-details ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
+
+.pose-details-list span {
+  font-weight: bold;
 }
